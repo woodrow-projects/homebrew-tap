@@ -2,28 +2,28 @@
 # (the tap lives in the org; release assets stay on the aerial repo's Releases).
 class Aerial < Formula
   desc "Provision a self-hosted Aerial radio station anywhere"
-  homepage "https://github.com/mattasaminew/aerial"
+  homepage "https://github.com/woodrow-projects/aerial"
   version "0.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mattasaminew/aerial/releases/download/cli-v0.1.0/aerial-darwin-arm64.tar.gz"
-      sha256 "81a6b6ebc44ab00e182c7579a74018cfdb7fb2004eec0004d48c07d36f4a4fe0"
+      url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-darwin-arm64.tar.gz"
+      sha256 "a7da4cb6e5ed62e0d57ad6fc335b5f44d0da5665b4645acea42fa7e451dd8d47"
     end
     on_intel do
-      url "https://github.com/mattasaminew/aerial/releases/download/cli-v0.1.0/aerial-darwin-x64.tar.gz"
-      sha256 "4063215a2e052edf23232e91685608e8ab021343238f89d2690b6a34d325a0c6"
+      url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-darwin-x64.tar.gz"
+      sha256 "518ab09da3c18c9fa164300ba5bf067ee098a55acff724709b84608adc970dbb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mattasaminew/aerial/releases/download/cli-v0.1.0/aerial-linux-arm64.tar.gz"
-      sha256 "aa6e885490f66a0637a27cdaffba0745fc5e6cc67da2bef584515f6fe356b222"
+      url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-linux-arm64.tar.gz"
+      sha256 "e26184e6e9773a9419ad30a83178a5473ba4831c8e8cdd757a29d6342c833f14"
     end
     on_intel do
-      url "https://github.com/mattasaminew/aerial/releases/download/cli-v0.1.0/aerial-linux-x64.tar.gz"
-      sha256 "97c6787dcc938fe67d4cc28ee4843493de85c7599c8f6e6d916957b09d51b8ff"
+      url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-linux-x64.tar.gz"
+      sha256 "1c391a80d9935239d9a229ac63b7d92de31d86972ad0af76b7cc3bf3c2107455"
     end
   end
 

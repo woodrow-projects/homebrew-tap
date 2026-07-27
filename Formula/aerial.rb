@@ -8,22 +8,22 @@ class Aerial < Formula
   on_macos do
     on_arm do
       url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-darwin-arm64.tar.gz"
-      sha256 "a7da4cb6e5ed62e0d57ad6fc335b5f44d0da5665b4645acea42fa7e451dd8d47"
+      sha256 "6ed252933c86b676ce9f3e5e17dbe55fc4e7f3fcf175d4eaf43797867b43f266"
     end
     on_intel do
       url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-darwin-x64.tar.gz"
-      sha256 "518ab09da3c18c9fa164300ba5bf067ee098a55acff724709b84608adc970dbb"
+      sha256 "6aba01da006a6da9fe6e4484e4f203d4b70ced67d8aa9663687c9e85d2b845fb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-linux-arm64.tar.gz"
-      sha256 "e26184e6e9773a9419ad30a83178a5473ba4831c8e8cdd757a29d6342c833f14"
+      sha256 "53d292d86ca974c972a3ec0fd25687dcc9d896b7faf876ba7a46fcc593ff9556"
     end
     on_intel do
       url "https://github.com/woodrow-projects/aerial/releases/download/cli-v0.1.0/aerial-linux-x64.tar.gz"
-      sha256 "1c391a80d9935239d9a229ac63b7d92de31d86972ad0af76b7cc3bf3c2107455"
+      sha256 "f05a3614e643555520dc0f2f88b4dc4f3408667e9296871d94ac2ceba656711e"
     end
   end
 
